@@ -81,3 +81,6 @@ In class Rectangle the function UpdatePosition is override in child classes Play
 
 **The project makes use of references in function declarations.**
 The function Run of Game class receive two parameters by reference. The function RenderMenu of Renderer class also receive two parameters by reference.
+
+**The project uses scope / Resource Acquisition Is Initialization (RAII) where appropriate.**
+The renderer object is created on the stack and its destructor is called automatically
