@@ -1,5 +1,10 @@
 # CppND Capstone Space Invaders
 
+This repo contains my capstone project for the [Udacity C++ Nanodegree.](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213)
+
+The project is a version of the popular game space invaders. 
+The game was built from the repository [Snake Game.](https://github.com/udacity/CppND-Capstone-Snake-Game)
+
 <img src="space_invaders.gif"/>
 
 ## Dependencies for Running Locally
