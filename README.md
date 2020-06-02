@@ -1,5 +1,6 @@
 # CppND Capstone Space Invaders
 
+<img src="space_invaders.gif"/>
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
