@@ -117,7 +117,6 @@ void Game::Run(Controller const &controller, Renderer &renderer, std::size_t tar
                 _level = 1;
                 _speed_enemy = 2.0;
             }
-
             running = false;
         }   
     }
