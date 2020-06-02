@@ -1,3 +1,0 @@
-/home/fernando/Escritorio/final_project/build/CMakeFiles/rebuild_cache.dir
-/home/fernando/Escritorio/final_project/build/CMakeFiles/edit_cache.dir
-/home/fernando/Escritorio/final_project/build/CMakeFiles/SpaceInvaders.dir
