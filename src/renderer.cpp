@@ -277,4 +277,3 @@ void Renderer::RenderRecordText(std::string text, int y, int height)
   SDL_RenderCopy(sdl_renderer, texture, NULL, &renderQuad);
   SDL_DestroyTexture(texture);
 }
-//https://stackoverflow.com/questions/34226818/undefined-reference-to-ft-load-glyph-and-other-sdl2-ttf-functions-using-cmak
