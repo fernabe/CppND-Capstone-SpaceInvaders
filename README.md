@@ -5,6 +5,12 @@ This repo contains my capstone project for the [Udacity C++ Nanodegree.](https:/
 The project is a version of the popular game space invaders. 
 The game was built from the repository [Snake Game.](https://github.com/udacity/CppND-Capstone-Snake-Game)
 
+In each game 15 enemies are thrown. If you destroy them all, you go to the next level, where the fall speed of the enemies is increased. Si un enemigo impacta contigo, la partida vuelve al nivel 1.
+
+## Controls
+1. Left Arrow, Right Arrow to move the player
+2. Space Bar to shoot
+
 <img src="space_invaders.gif"/>
 
 ## Dependencies for Running Locally
@@ -28,3 +34,29 @@ The game was built from the repository [Snake Game.](https://github.com/udacity/
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./SpaceInvaders`.
+
+## Code Structure
+
+#### Main.cpp
+Defines the constants creates Renderer, Controller, Game and launches the game.
+It consists of an infinite loop where the menu is displayed. If the player selects start the game starts, if he selects exit the game ends.
+
+#### Renderer.cpp
+This class render each frame of the game and is also in charge of rendering the menu screen and the information texts that are displayed
+
+#### Controller.cpp
+This class handle the keyboard and mouse events.
+
+#### Rectangle.cpp
+Parent class of the classes Player, Enemy and Projectile. This class handle the position and the speed of this objects.
+
+#### Game.cpp
+Contains the loop of the game. In this the enemies and player are created. Collisions are checked and player, enemy, and projectile positions are updated. At the end of the game it is checked if there is a new record and if there is, it is saved in a file.
+
+#### Button.cpp
+Class for render the game menu buttons. Contains the positions x and y, the text of the button and if is active or not.
+
+## Rubric Points
+
+**The project demonstrates an understanding of C++ functions and control structures.**
+For example, the game class contains while, for and range based for loops and all code is divided into functions.
