@@ -21,8 +21,13 @@ In each game 15 enemies are thrown. If you destroy them all, you go to the next 
   * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
   * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
 * SDL2 >= 2.0
-  * All installation instructions can be found [here](https://wiki.libsdl.org/Installation)
-  * Note that for Linux, an `apt` or `apt-get` installation is preferred to building from source.
+  * Linux: `sudo apt-get -y install libsdl2-dev`
+  * Mac: `brew install sdl2`
+  * Windows: [click here for installation insturctions](https://www.libsdl.org/download-2.0.php)
+* SDL2_ttf (loading fonts into textures)
+  * Linux: `sudo apt-get -y install libsdl2-ttf-dev`
+  * Mac: `brew install sdl2_ttf`
+  * Windows: [click here for installation insturctions](https://www.libsdl.org/projects/SDL_ttf/index.html)
 * gcc/g++ >= 5.4
   * Linux: gcc / g++ is installed by default on most Linux distros
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
