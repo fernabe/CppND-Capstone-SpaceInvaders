@@ -60,3 +60,24 @@ Class for render the game menu buttons. Contains the positions x and y, the text
 
 **The project demonstrates an understanding of C++ functions and control structures.**
 For example, the game class contains while, for and range based for loops and all code is divided into functions.
+
+**The project reads data from a file and process the data, or the program writes data to a file.***
+In main.cpp lines 36 to 44 reads a file. In game.cpp the program writes data to a file in the function SaveRecord() at line 309.
+
+**The project accepts user input and processes the input.**
+In the Controller class the program accepts user inputs and processes them.
+
+**The project uses Object Oriented Programming techniques.**
+The project is divided in multiple classes.
+
+**Class constructors utilize member initialization lists.**
+In all classes the diferent constructors use member initialization lists.
+
+**Classes use appropriate access specifiers for class members.**
+All class members are specified either public, protected or private.
+
+**Derived class functions override virtual base class functions.**
+In class Rectangle the function UpdatePosition is override in child classes Player, Enemy and Projectile.
+
+**The project makes use of references in function declarations.**
+The function Run of Game class receive two parameters by reference. The function RenderMenu of Renderer class also receive two parameters by reference.
